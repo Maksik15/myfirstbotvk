@@ -1,5 +1,2 @@
 vk_api
-time
 datetime
-VkLongPoll
-VkEventType
