@@ -2,9 +2,9 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 import vk_api
 from datetime import datetime
 import time
-import os
 
-token = os.getenv("BOT_TOKEN")
+
+token = 303c26196615bb78102e2e792e2486f391ce3f87f5ea8f7f128d85cf2a0ee33e1e56103435de408ab07f9
 
 vk_session = vk_api.VkApi(token = token)
 
@@ -32,8 +32,6 @@ while True:
 
 
 time.sleep(1)
-bot.run(str(token))
-
 
 
 
