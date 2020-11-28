@@ -27,6 +27,7 @@ while True:
                     sender(id, 'Добрый вечер!')
                 elif msg == 'пока':
                     sender(id,'До встречи')
+bot.run(str(token))
 
 time.sleep(1)
 
