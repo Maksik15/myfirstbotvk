@@ -4,7 +4,7 @@ from datetime import datetime
 import time
 
 token = os.environ.get("BOT_TOKEN")
-bot.run(str(token))
+
 vk_session = vk_api.VkApi(token = token)
 
 session_api = vk_session.get_api()
@@ -31,6 +31,7 @@ while True:
 
 
 time.sleep(1)
+bot.run(str(token))
 
 
 
