@@ -2,6 +2,7 @@ from vk_api.longpoll import VkLongPoll, VkEventType
 import vk_api
 from datetime import datetime
 import time
+import os
 
 token = os.environ.get("BOT_TOKEN")
 
