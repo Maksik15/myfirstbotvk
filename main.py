@@ -4,7 +4,7 @@ from datetime import datetime
 import time
 import os
 
-token = os.environ.get("BOT_TOKEN")
+token = os.getenv("BOT_TOKEN")
 
 vk_session = vk_api.VkApi(token = token)
 
